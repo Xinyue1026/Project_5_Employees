@@ -55,10 +55,6 @@ class Employee(ABC):
         """Get the employee's manager."""
         return self.__manager
 
-    @manager.setter
-    def manager(self, manager):
-        self.__manager = manager
-
     @property
     def performance(self):
         """Get the employee's performance."""
